@@ -1,0 +1,9 @@
+pymupdf4llm
+langchain-core
+langchain-ollama
+langchain-chroma
+langchain-text-splitters
+langchain-community
+langchain-classic
+rank-bm25
+pandas

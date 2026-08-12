@@ -1,0 +1,921 @@
+{
+  "dataset_name": "SSDS_2026_RAG_Evaluation",
+  "version": "1.0",
+  "source_document": "Buku Panduan SSDS 2026.pdf",
+  "description": "Dataset evaluasi retrieval dan generation untuk sistem RAG Buku Panduan SSDS 2026.",
+  "items": [
+    {
+      "id": "ssds_001",
+      "category": "tema",
+      "question_type": "lexical",
+      "difficulty": "easy",
+      "question": "Apa tema dari kompetisi SSDS 2026?",
+      "answerable": true,
+      "gold_section": "A. TEMA",
+      "gold_subsection": null,
+      "expected_answer": "Tema SSDS 2026 adalah \"Outpace the ordinary, outleap the analytics\".",
+      "must_include": [
+        "Outpace the ordinary",
+        "outleap the analytics"
+      ],
+      "gold_evidence_contains": [
+        "Outpace the ordinary, outleap the analytics"
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "ssds_002",
+      "category": "tema",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Apa slogan utama yang diusung dalam SSDS tahun ini?",
+      "answerable": true,
+      "gold_section": "A. TEMA",
+      "gold_subsection": null,
+      "expected_answer": "Slogan atau tema utama SSDS 2026 adalah \"Outpace the ordinary, outleap the analytics\".",
+      "must_include": [
+        "Outpace the ordinary",
+        "outleap the analytics"
+      ],
+      "gold_evidence_contains": [
+        "Outpace the ordinary, outleap the analytics"
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "ssds_003",
+      "category": "tema",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Apa yang dimaksud dengan Outpace the Ordinary?",
+      "answerable": true,
+      "gold_section": "B. DESKRIPSI TEMA",
+      "gold_subsection": null,
+      "expected_answer": "Outpace the Ordinary berarti tidak sekadar memenuhi tuntutan tugas, tetapi menunjukkan efisiensi kerja, ketajaman metodologi, dan standar profesionalisme yang lebih tinggi dibandingkan prosedur standar.",
+      "must_include": [
+        "efisiensi kerja",
+        "ketajaman metodologi",
+        "standar profesionalisme"
+      ],
+      "gold_evidence_contains": [
+        "Outpace the Ordinary",
+        "efisiensi kerja",
+        "ketajaman metodologi"
+      ],
+      "source_page": 2
+    },
+    {
+      "id": "ssds_004",
+      "category": "tema",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Apa arti dari Outleap the Analytics dalam panduan?",
+      "answerable": true,
+      "gold_section": "B. DESKRIPSI TEMA",
+      "gold_subsection": null,
+      "expected_answer": "Outleap the Analytics menekankan kemampuan untuk melampaui keterbatasan analitik dengan menarik kesimpulan transformatif dan melihat peluang di balik data yang tidak mampu ditangkap algoritma semata.",
+      "must_include": [
+        "kesimpulan",
+        "transformatif",
+        "peluang"
+      ],
+      "gold_evidence_contains": [
+        "Melompati analitik",
+        "kesimpulan yang transformatif"
+      ],
+      "source_page": 3
+    },
+
+    {
+      "id": "ssds_005",
+      "category": "timeline",
+      "question_type": "lexical",
+      "difficulty": "easy",
+      "question": "Tanggal berapa rilis dataset?",
+      "answerable": true,
+      "gold_section": "C. TIMELINE",
+      "gold_subsection": null,
+      "expected_answer": "Dataset dirilis pada 11 Juli 2026.",
+      "must_include": [
+        "11 Juli 2026"
+      ],
+      "gold_evidence_contains": [
+        "Rilis Dataset",
+        "11 Juli 2026"
+      ],
+      "source_page": 3
+    },
+    {
+      "id": "ssds_006",
+      "category": "timeline",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Kapan dataset kompetisi mulai tersedia untuk peserta?",
+      "answerable": true,
+      "gold_section": "C. TIMELINE",
+      "gold_subsection": null,
+      "expected_answer": "Dataset kompetisi dirilis pada 11 Juli 2026.",
+      "must_include": [
+        "11 Juli 2026"
+      ],
+      "gold_evidence_contains": [
+        "Rilis Dataset",
+        "11 Juli 2026"
+      ],
+      "source_page": 3
+    },
+    {
+      "id": "ssds_007",
+      "category": "timeline",
+      "question_type": "numerical",
+      "difficulty": "easy",
+      "question": "Kapan pendaftaran SSDS 2026 dibuka dan ditutup?",
+      "answerable": true,
+      "gold_section": "C. TIMELINE",
+      "gold_subsection": null,
+      "expected_answer": "Pendaftaran berlangsung dari 2 sampai 30 Juni 2026.",
+      "must_include": [
+        "2",
+        "30 Juni 2026"
+      ],
+      "gold_evidence_contains": [
+        "Pendaftaran",
+        "2 – 30 Juni 2026"
+      ],
+      "source_page": 3
+    },
+    {
+      "id": "ssds_008",
+      "category": "timeline",
+      "question_type": "numerical",
+      "difficulty": "easy",
+      "question": "Kapan babak penyisihan berlangsung?",
+      "answerable": true,
+      "gold_section": "C. TIMELINE",
+      "gold_subsection": null,
+      "expected_answer": "Babak penyisihan berlangsung pada 11 sampai 25 Juli 2026.",
+      "must_include": [
+        "11",
+        "25 Juli 2026"
+      ],
+      "gold_evidence_contains": [
+        "Babak Penyisihan",
+        "11 – 25 Juli 2026"
+      ],
+      "source_page": 3
+    },
+    {
+      "id": "ssds_009",
+      "category": "timeline",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Kapan peserta mengetahui hasil lolos dari tahap penyisihan?",
+      "answerable": true,
+      "gold_section": "C. TIMELINE",
+      "gold_subsection": null,
+      "expected_answer": "Pengumuman finalis babak penyisihan dilaksanakan pada 9 Agustus 2026.",
+      "must_include": [
+        "9 Agustus 2026"
+      ],
+      "gold_evidence_contains": [
+        "Pengumuman Finalis Babak Penyisihan",
+        "9 Agustus 2026"
+      ],
+      "source_page": 3
+    },
+    {
+      "id": "ssds_010",
+      "category": "timeline",
+      "question_type": "lexical",
+      "difficulty": "easy",
+      "question": "Kapan technical meeting final dilaksanakan?",
+      "answerable": true,
+      "gold_section": "C. TIMELINE",
+      "gold_subsection": null,
+      "expected_answer": "Technical Meeting Final dilaksanakan pada 29 Agustus 2026.",
+      "must_include": [
+        "29 Agustus 2026"
+      ],
+      "gold_evidence_contains": [
+        "Technical Meeting Final",
+        "29 Agustus 2026"
+      ],
+      "source_page": 4
+    },
+    {
+      "id": "ssds_011",
+      "category": "timeline",
+      "question_type": "numerical",
+      "difficulty": "easy",
+      "question": "Kapan presentasi final dan pengumuman juara dilaksanakan?",
+      "answerable": true,
+      "gold_section": "C. TIMELINE",
+      "gold_subsection": null,
+      "expected_answer": "Presentasi final, Grand Closing SSF 2026, dan pengumuman juara dilaksanakan pada 5 September 2026.",
+      "must_include": [
+        "5 September 2026"
+      ],
+      "gold_evidence_contains": [
+        "Babak Final 2",
+        "5 September 2026"
+      ],
+      "source_page": 4
+    },
+
+    {
+      "id": "ssds_012",
+      "category": "persyaratan",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Apakah mahasiswa diploma boleh mengikuti SSDS?",
+      "answerable": true,
+      "gold_section": "D. PERSYARATAN DAN KETENTUAN PESERTA",
+      "gold_subsection": null,
+      "expected_answer": "Ya. Peserta dapat berasal dari mahasiswa aktif Diploma atau Sarjana di perguruan tinggi Indonesia.",
+      "must_include": [
+        "Diploma",
+        "Sarjana"
+      ],
+      "gold_evidence_contains": [
+        "mahasiswa/i aktif Diploma atau Sarjana"
+      ],
+      "source_page": 4
+    },
+    {
+      "id": "ssds_013",
+      "category": "persyaratan",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Apakah mahasiswa yang sudah sidang skripsi masih dapat mengikuti lomba?",
+      "answerable": true,
+      "gold_section": "D. PERSYARATAN DAN KETENTUAN PESERTA",
+      "gold_subsection": null,
+      "expected_answer": "Tidak. Peserta belum boleh mengikuti sidang skripsi atau tugas akhir sampai 5 September 2026.",
+      "must_include": [
+        "belum",
+        "sidang skripsi",
+        "5 September 2026"
+      ],
+      "gold_evidence_contains": [
+        "belum mengikuti sidang skripsi atau tugas akhir",
+        "5 September 2026"
+      ],
+      "source_page": 4
+    },
+    {
+      "id": "ssds_014",
+      "category": "persyaratan",
+      "question_type": "numerical",
+      "difficulty": "easy",
+      "question": "Berapa maksimal anggota dalam satu tim?",
+      "answerable": true,
+      "gold_section": "D. PERSYARATAN DAN KETENTUAN PESERTA",
+      "gold_subsection": null,
+      "expected_answer": "Satu tim dapat memiliki maksimal tiga anggota, dengan satu orang sebagai ketua tim.",
+      "must_include": [
+        "tiga",
+        "ketua tim"
+      ],
+      "gold_evidence_contains": [
+        "maksimal anggota kelompok sebanyak tiga orang"
+      ],
+      "source_page": 4
+    },
+    {
+      "id": "ssds_015",
+      "category": "persyaratan",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Bolehkah anggota satu tim berasal dari jurusan yang berbeda?",
+      "answerable": true,
+      "gold_section": "D. PERSYARATAN DAN KETENTUAN PESERTA",
+      "gold_subsection": null,
+      "expected_answer": "Boleh. Anggota tim dapat berasal dari program studi dan/atau angkatan berbeda, tetapi harus tetap berasal dari perguruan tinggi yang sama.",
+      "must_include": [
+        "program studi",
+        "berbeda",
+        "perguruan tinggi yang sama"
+      ],
+      "gold_evidence_contains": [
+        "program studi dan/atau angkatan yang berbeda",
+        "perguruan tinggi yang sama"
+      ],
+      "source_page": 4
+    },
+    {
+      "id": "ssds_016",
+      "category": "persyaratan",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Apakah satu tim boleh berisi mahasiswa dari dua universitas yang berbeda?",
+      "answerable": true,
+      "gold_section": "D. PERSYARATAN DAN KETENTUAN PESERTA",
+      "gold_subsection": null,
+      "expected_answer": "Tidak. Walaupun program studi atau angkatan boleh berbeda, seluruh anggota tim harus berasal dari perguruan tinggi yang sama.",
+      "must_include": [
+        "tidak",
+        "perguruan tinggi yang sama"
+      ],
+      "gold_evidence_contains": [
+        "tetap berasal dari perguruan tinggi yang sama"
+      ],
+      "source_page": 4
+    },
+    {
+      "id": "ssds_017",
+      "category": "persyaratan",
+      "question_type": "numerical",
+      "difficulty": "easy",
+      "question": "Berapa maksimal jumlah kata dalam nama tim?",
+      "answerable": true,
+      "gold_section": "D. PERSYARATAN DAN KETENTUAN PESERTA",
+      "gold_subsection": null,
+      "expected_answer": "Nama tim maksimal terdiri dari dua kata.",
+      "must_include": [
+        "dua kata"
+      ],
+      "gold_evidence_contains": [
+        "Nama tim",
+        "maksimal terdiri dari dua kata"
+      ],
+      "source_page": 5
+    },
+
+    {
+      "id": "ssds_018",
+      "category": "pendaftaran",
+      "question_type": "numerical",
+      "difficulty": "easy",
+      "question": "Berapa biaya pendaftaran pada batch 1 dan batch 2?",
+      "answerable": true,
+      "gold_section": "E. ALUR PENDAFTARAN",
+      "gold_subsection": null,
+      "expected_answer": "Biaya pendaftaran adalah Rp90.000 pada batch 1 dan Rp95.000 pada batch 2.",
+      "must_include": [
+        "Rp90.000",
+        "Rp95.000"
+      ],
+      "gold_evidence_contains": [
+        "Rp.90.000",
+        "Rp95.000"
+      ],
+      "source_page": 5
+    },
+    {
+      "id": "ssds_019",
+      "category": "pendaftaran",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Apa saja metode pembayaran pendaftaran yang tersedia?",
+      "answerable": true,
+      "gold_section": "E. ALUR PENDAFTARAN",
+      "gold_subsection": null,
+      "expected_answer": "Pembayaran dapat dilakukan melalui BRI atau ShopeePay.",
+      "must_include": [
+        "BRI",
+        "ShopeePay"
+      ],
+      "gold_evidence_contains": [
+        "BRI",
+        "Shopeepay"
+      ],
+      "source_page": 5
+    },
+    {
+      "id": "ssds_020",
+      "category": "pendaftaran",
+      "question_type": "multi_fact",
+      "difficulty": "medium",
+      "question": "Sebutkan nomor tujuan pembayaran BRI dan ShopeePay.",
+      "answerable": true,
+      "gold_section": "E. ALUR PENDAFTARAN",
+      "gold_subsection": null,
+      "expected_answer": "BRI: 0035 0109 7632 504 dan ShopeePay: 0852 2747 0160, keduanya atas nama NAJLAA ABID.",
+      "must_include": [
+        "0035 0109 7632 504",
+        "0852 2747 0160",
+        "NAJLAA ABID"
+      ],
+      "gold_evidence_contains": [
+        "0035 0109 7632 504",
+        "0852 2747 0160"
+      ],
+      "source_page": 5
+    },
+    {
+      "id": "ssds_021",
+      "category": "pendaftaran",
+      "question_type": "numerical",
+      "difficulty": "easy",
+      "question": "Apakah ada biaya tambahan jika transfer dari bank ke ShopeePay?",
+      "answerable": true,
+      "gold_section": "E. ALUR PENDAFTARAN",
+      "gold_subsection": null,
+      "expected_answer": "Ya. Pembayaran dari bank ke ShopeePay dikenakan tambahan Rp500.",
+      "must_include": [
+        "Rp500"
+      ],
+      "gold_evidence_contains": [
+        "Pembayaran dari Bank ke Shopeepay + Rp500"
+      ],
+      "source_page": 5
+    },
+    {
+      "id": "ssds_022",
+      "category": "pendaftaran",
+      "question_type": "lexical",
+      "difficulty": "easy",
+      "question": "Di mana form pendaftaran SSDS dapat diakses?",
+      "answerable": true,
+      "gold_section": "E. ALUR PENDAFTARAN",
+      "gold_subsection": null,
+      "expected_answer": "Form pendaftaran dapat diakses melalui https://uns.id/FormPendaftaranSSDS2026.",
+      "must_include": [
+        "uns.id/FormPendaftaranSSDS2026"
+      ],
+      "gold_evidence_contains": [
+        "https://uns.id/FormPendaftaranSSDS2026"
+      ],
+      "source_page": 6
+    },
+    {
+      "id": "ssds_023",
+      "category": "pendaftaran",
+      "question_type": "procedural",
+      "difficulty": "medium",
+      "question": "Apa yang harus dilakukan jika setelah mendaftar belum menerima email selama 2x24 jam?",
+      "answerable": true,
+      "gold_section": "E. ALUR PENDAFTARAN",
+      "gold_subsection": null,
+      "expected_answer": "Ketua tim harus menghubungi salah satu Contact Person, yaitu Santi Amelia atau Raras Anindita Adi, jika dalam 2x24 jam belum menerima balasan email.",
+      "must_include": [
+        "2x24 jam",
+        "Santi",
+        "Raras"
+      ],
+      "gold_evidence_contains": [
+        "2x24 jam",
+        "Santi_Amelia",
+        "Raras_Anindita_Adi"
+      ],
+      "source_page": 6
+    },
+    {
+      "id": "ssds_024",
+      "category": "pendaftaran",
+      "question_type": "procedural",
+      "difficulty": "medium",
+      "question": "Bagaimana format konfirmasi pendaftaran melalui WhatsApp?",
+      "answerable": true,
+      "gold_section": "E. ALUR PENDAFTARAN",
+      "gold_subsection": null,
+      "expected_answer": "Format konfirmasi adalah SSDS2026_Nama Tim_Nama Ketua.",
+      "must_include": [
+        "SSDS2026_Nama Tim_Nama Ketua"
+      ],
+      "gold_evidence_contains": [
+        "SSDS2026_Nama Tim_Nama Ketua"
+      ],
+      "source_page": 6
+    },
+
+    {
+      "id": "ssds_025",
+      "category": "mekanisme",
+      "question_type": "lexical",
+      "difficulty": "easy",
+      "question": "Platform apa yang digunakan untuk babak penyisihan?",
+      "answerable": true,
+      "gold_section": "F. MEKANISME LOMBA",
+      "gold_subsection": "II. Teknis Babak Penyisihan",
+      "expected_answer": "Babak penyisihan dilakukan secara online melalui platform Kaggle.",
+      "must_include": [
+        "Kaggle"
+      ],
+      "gold_evidence_contains": [
+        "Babak penyisihan dilakukan secara online melalui platform Kaggle"
+      ],
+      "source_page": 7
+    },
+    {
+      "id": "ssds_026",
+      "category": "mekanisme",
+      "question_type": "numerical",
+      "difficulty": "easy",
+      "question": "Berapa lama babak penyisihan berlangsung?",
+      "answerable": true,
+      "gold_section": "F. MEKANISME LOMBA",
+      "gold_subsection": "II. Teknis Babak Penyisihan",
+      "expected_answer": "Babak penyisihan berlangsung selama 14 hari, dari 11 sampai 25 Juli 2026.",
+      "must_include": [
+        "14 hari",
+        "11",
+        "25 Juli 2026"
+      ],
+      "gold_evidence_contains": [
+        "Lama babak penyisihan adalah 14 hari",
+        "11 - 25 Juli 2026"
+      ],
+      "source_page": 8
+    },
+    {
+      "id": "ssds_027",
+      "category": "mekanisme",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Apakah peserta diwajibkan menggunakan bahasa pemrograman atau software tertentu?",
+      "answerable": true,
+      "gold_section": "F. MEKANISME LOMBA",
+      "gold_subsection": "II. Teknis Babak Penyisihan",
+      "expected_answer": "Tidak. Peserta diberikan kebebasan menggunakan bahasa pemrograman, tools, library, algoritma, dan software apa pun.",
+      "must_include": [
+        "kebebasan",
+        "bahasa pemrograman",
+        "software"
+      ],
+      "gold_evidence_contains": [
+        "kebebasan untuk menggunakan bahasa pemrograman",
+        "software apapun"
+      ],
+      "source_page": 8
+    },
+    {
+      "id": "ssds_028",
+      "category": "mekanisme",
+      "question_type": "numerical",
+      "difficulty": "easy",
+      "question": "Berapa kali maksimal peserta dapat submit ke Kaggle dalam sehari?",
+      "answerable": true,
+      "gold_section": "F. MEKANISME LOMBA",
+      "gold_subsection": "II. Teknis Babak Penyisihan",
+      "expected_answer": "Peserta dapat melakukan submit maksimal dua kali per hari.",
+      "must_include": [
+        "dua",
+        "per hari"
+      ],
+      "gold_evidence_contains": [
+        "maksimal dua (2) kali per hari"
+      ],
+      "source_page": 8
+    },
+    {
+      "id": "ssds_029",
+      "category": "mekanisme",
+      "question_type": "multi_fact",
+      "difficulty": "medium",
+      "question": "File apa saja yang wajib dikumpulkan pada babak penyisihan?",
+      "answerable": true,
+      "gold_section": "F. MEKANISME LOMBA",
+      "gold_subsection": "II. Teknis Babak Penyisihan",
+      "expected_answer": "Tim wajib mengumpulkan file notebook berformat .ipynb dan pakta integritas.",
+      "must_include": [
+        ".ipynb",
+        "pakta integritas"
+      ],
+      "gold_evidence_contains": [
+        "file notebook",
+        ".ipynb",
+        "pakta integritas"
+      ],
+      "source_page": 8
+    },
+    {
+      "id": "ssds_030",
+      "category": "mekanisme",
+      "question_type": "numerical",
+      "difficulty": "easy",
+      "question": "Berapa tim yang akan lolos ke babak final?",
+      "answerable": true,
+      "gold_section": "F. MEKANISME LOMBA",
+      "gold_subsection": "II. Teknis Babak Penyisihan",
+      "expected_answer": "Sebanyak delapan tim dengan total nilai tertinggi akan lolos ke babak final.",
+      "must_include": [
+        "delapan"
+      ],
+      "gold_evidence_contains": [
+        "delapan (8) tim"
+      ],
+      "source_page": 8
+    },
+    {
+      "id": "ssds_031",
+      "category": "mekanisme",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Apa yang terjadi jika finalis tidak melakukan daftar ulang tepat waktu?",
+      "answerable": true,
+      "gold_section": "F. MEKANISME LOMBA",
+      "gold_subsection": "II. Teknis Babak Penyisihan",
+      "expected_answer": "Tim dianggap gugur dan akan digantikan oleh tim yang berada pada waiting list.",
+      "must_include": [
+        "gugur",
+        "waiting list"
+      ],
+      "gold_evidence_contains": [
+        "dianggap gugur",
+        "digantikan oleh tim pada waiting list"
+      ],
+      "source_page": 8
+    },
+    {
+      "id": "ssds_032",
+      "category": "mekanisme",
+      "question_type": "numerical",
+      "difficulty": "easy",
+      "question": "Berapa lama kesempatan tim waiting list untuk melakukan daftar ulang?",
+      "answerable": true,
+      "gold_section": "F. MEKANISME LOMBA",
+      "gold_subsection": "II. Teknis Babak Penyisihan",
+      "expected_answer": "Tim waiting list diberikan waktu 1x24 jam untuk melakukan daftar ulang dan pembayaran.",
+      "must_include": [
+        "1x24 jam"
+      ],
+      "gold_evidence_contains": [
+        "1×24 jam"
+      ],
+      "source_page": 9
+    },
+    {
+      "id": "ssds_033",
+      "category": "mekanisme",
+      "question_type": "multi_fact",
+      "difficulty": "medium",
+      "question": "Bagaimana pelaksanaan babak final SSDS 2026?",
+      "answerable": true,
+      "gold_section": "F. MEKANISME LOMBA",
+      "gold_subsection": "III. Teknis Babak Final",
+      "expected_answer": "Babak final dilaksanakan secara daring pada 5 September 2026 melalui Zoom Meeting, dengan presentasi hasil analisis dan sesi tanya jawab bersama dewan juri.",
+      "must_include": [
+        "daring",
+        "5 September 2026",
+        "Zoom",
+        "presentasi",
+        "tanya jawab"
+      ],
+      "gold_evidence_contains": [
+        "secara daring",
+        "5 September 2026",
+        "Zoom Meeting",
+        "presentasi hasil analisis dan tanya jawab"
+      ],
+      "source_page": 9
+    },
+
+    {
+      "id": "ssds_034",
+      "category": "penilaian",
+      "question_type": "multi_fact",
+      "difficulty": "easy",
+      "question": "Apa saja komponen penilaian babak penyisihan dan bobotnya?",
+      "answerable": true,
+      "gold_section": "G. KRITERIA PENILAIAN",
+      "gold_subsection": null,
+      "expected_answer": "Penilaian terdiri dari skor leaderboard Kaggle sebesar 95% dan notebook sebesar 5%.",
+      "must_include": [
+        "95%",
+        "5%",
+        "Leaderboard",
+        "Notebook"
+      ],
+      "gold_evidence_contains": [
+        "Skor Leaderboard Kaggle",
+        "95%",
+        "Notebook",
+        "5%"
+      ],
+      "source_page": 10
+    },
+    {
+      "id": "ssds_035",
+      "category": "peraturan",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Bolehkah anggota tim diganti setelah melakukan pendaftaran?",
+      "answerable": true,
+      "gold_section": "H. PERATURAN",
+      "gold_subsection": null,
+      "expected_answer": "Tidak. Peserta tidak diperbolehkan mengubah, mengganti, atau menukar anggota tim setelah pendaftaran.",
+      "must_include": [
+        "tidak",
+        "mengganti",
+        "anggota tim"
+      ],
+      "gold_evidence_contains": [
+        "tidak diperbolehkan mengubah",
+        "mengganti",
+        "anggota tim"
+      ],
+      "source_page": 10
+    },
+    {
+      "id": "ssds_036",
+      "category": "peraturan",
+      "question_type": "numerical",
+      "difficulty": "easy",
+      "question": "Berapa batas toleransi keterlambatan pengumpulan notebook?",
+      "answerable": true,
+      "gold_section": "H. PERATURAN",
+      "gold_subsection": null,
+      "expected_answer": "Batas toleransi keterlambatan pengumpulan notebook adalah 30 menit.",
+      "must_include": [
+        "30 menit"
+      ],
+      "gold_evidence_contains": [
+        "batas waktu toleransi",
+        "30 menit"
+      ],
+      "source_page": 11
+    },
+    {
+      "id": "ssds_037",
+      "category": "sanksi",
+      "question_type": "semantic_paraphrase",
+      "difficulty": "medium",
+      "question": "Apa konsekuensi jika peserta terbukti melanggar peraturan?",
+      "answerable": true,
+      "gold_section": "I. SANKSI",
+      "gold_subsection": null,
+      "expected_answer": "Peserta atau tim yang terbukti melakukan pelanggaran akan didiskualifikasi.",
+      "must_include": [
+        "didiskualifikasi"
+      ],
+      "gold_evidence_contains": [
+        "akan didiskualifikasi"
+      ],
+      "source_page": 11
+    },
+
+    {
+      "id": "ssds_038",
+      "category": "penghargaan",
+      "question_type": "multi_fact",
+      "difficulty": "medium",
+      "question": "Apa penghargaan yang diperoleh juara I, II, dan III?",
+      "answerable": true,
+      "gold_section": "J. PENGHARGAAN",
+      "gold_subsection": null,
+      "expected_answer": "Juara I, II, dan III mendapatkan trophy, e-certificate sebagai pemenang, dan uang pembinaan dengan total jutaan rupiah.",
+      "must_include": [
+        "trophy",
+        "e-certificate",
+        "uang pembinaan"
+      ],
+      "gold_evidence_contains": [
+        "trophy",
+        "e-certificate",
+        "uang pembinaan"
+      ],
+      "source_page": 12
+    },
+    {
+      "id": "ssds_039",
+      "category": "kontak",
+      "question_type": "lexical",
+      "difficulty": "easy",
+      "question": "Siapa narahubung yang dapat dihubungi?",
+      "answerable": true,
+      "gold_section": "K. NARAHUBUNG",
+      "gold_subsection": null,
+      "expected_answer": "Narahubung yang tercantum adalah Santi dan Raras.",
+      "must_include": [
+        "Santi",
+        "Raras"
+      ],
+      "gold_evidence_contains": [
+        "Santi",
+        "Raras"
+      ],
+      "source_page": 12
+    },
+    {
+      "id": "ssds_040",
+      "category": "kontak",
+      "question_type": "multi_fact",
+      "difficulty": "medium",
+      "question": "Apa akun Instagram dan email resmi SSF?",
+      "answerable": true,
+      "gold_section": "L. KONTAK SSF",
+      "gold_subsection": null,
+      "expected_answer": "Instagram resmi SSF adalah @ssfuns dan emailnya ssf.himasta@mail.uns.ac.id.",
+      "must_include": [
+        "@ssfuns",
+        "ssf.himasta@mail.uns.ac.id"
+      ],
+      "gold_evidence_contains": [
+        "@ssfuns",
+        "ssf.himasta@mail.uns.ac.id"
+      ],
+      "source_page": 12
+    },
+
+    {
+      "id": "ssds_041",
+      "category": "unanswerable",
+      "question_type": "negative_unanswerable",
+      "difficulty": "hard",
+      "question": "Siapa nama ketua dewan juri SSDS 2026?",
+      "answerable": false,
+      "gold_section": null,
+      "gold_subsection": null,
+      "expected_answer": "Maaf, informasi tersebut tidak tercantum dalam Buku Panduan.",
+      "must_include": [
+        "tidak tercantum"
+      ],
+      "gold_evidence_contains": [],
+      "source_page": null
+    },
+    {
+      "id": "ssds_042",
+      "category": "unanswerable",
+      "question_type": "negative_unanswerable",
+      "difficulty": "hard",
+      "question": "Berapa hadiah uang untuk juara pertama?",
+      "answerable": false,
+      "gold_section": "J. PENGHARGAAN",
+      "gold_subsection": null,
+      "expected_answer": "Maaf, nominal hadiah uang untuk juara pertama tidak tercantum dalam Buku Panduan.",
+      "must_include": [
+        "tidak tercantum"
+      ],
+      "gold_evidence_contains": [
+        "uang pembinaan dengan total jutaan rupiah"
+      ],
+      "source_page": 12
+    },
+    {
+      "id": "ssds_043",
+      "category": "unanswerable",
+      "question_type": "negative_unanswerable",
+      "difficulty": "hard",
+      "question": "Berapa jumlah total tim yang mendaftar SSDS 2026?",
+      "answerable": false,
+      "gold_section": null,
+      "gold_subsection": null,
+      "expected_answer": "Maaf, informasi tersebut tidak tercantum dalam Buku Panduan.",
+      "must_include": [
+        "tidak tercantum"
+      ],
+      "gold_evidence_contains": [],
+      "source_page": null
+    },
+    {
+      "id": "ssds_044",
+      "category": "unanswerable",
+      "question_type": "negative_unanswerable",
+      "difficulty": "hard",
+      "question": "Model machine learning apa yang wajib digunakan peserta?",
+      "answerable": false,
+      "gold_section": "F. MEKANISME LOMBA",
+      "gold_subsection": "II. Teknis Babak Penyisihan",
+      "expected_answer": "Tidak ada model machine learning tertentu yang diwajibkan. Panduan memberikan kebebasan menggunakan bahasa pemrograman, tools, library, algoritma, dan software apa pun.",
+      "must_include": [
+        "tidak ada",
+        "kebebasan"
+      ],
+      "gold_evidence_contains": [
+        "kebebasan untuk menggunakan",
+        "algoritma"
+      ],
+      "source_page": 8
+    },
+    {
+      "id": "ssds_045",
+      "category": "unanswerable",
+      "question_type": "negative_unanswerable",
+      "difficulty": "hard",
+      "question": "Di gedung mana babak final akan diselenggarakan?",
+      "answerable": true,
+      "gold_section": "F. MEKANISME LOMBA",
+      "gold_subsection": "III. Teknis Babak Final",
+      "expected_answer": "Babak final tidak diselenggarakan di gedung tertentu karena dilaksanakan secara daring melalui Zoom Meeting.",
+      "must_include": [
+        "daring",
+        "Zoom"
+      ],
+      "gold_evidence_contains": [
+        "secara daring",
+        "Zoom Meeting"
+      ],
+      "source_page": 9
+    },
+    {
+      "id": "ssds_046",
+      "category": "unanswerable",
+      "question_type": "negative_unanswerable",
+      "difficulty": "hard",
+      "question": "Apakah peserta mendapatkan sertifikat dalam bentuk fisik?",
+      "answerable": false,
+      "gold_section": "J. PENGHARGAAN",
+      "gold_subsection": null,
+      "expected_answer": "Maaf, informasi mengenai sertifikat fisik tidak tercantum dalam Buku Panduan. Panduan hanya menyebutkan e-certificate.",
+      "must_include": [
+        "tidak tercantum",
+        "e-certificate"
+      ],
+      "gold_evidence_contains": [
+        "e-certificate"
+      ],
+      "source_page": 12
+    }
+  ]
+}
