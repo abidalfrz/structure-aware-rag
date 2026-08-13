@@ -1,5 +1,3 @@
-
-
 **BUKU PANDUAN** **SSDS**
 # A. TEMA
 _Outpace the ordinary, outleap the analytics_
